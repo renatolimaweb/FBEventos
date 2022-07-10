@@ -1,0 +1,71 @@
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    main {padding: 0;}
+    #overlay {display: none;}
+	.home-panel h1{font-size:72px !important;line-height:65px !important;vertical-align:middle;}
+    h1 {font-size:38px;}
+    footer {text-align: center;margin: 40px 0 0;padding: 0 0 40px 0;}
+    footer small {text-align: center;}
+    .social-media li {padding: 0 10px 0 0;}
+    .content-column {height: auto;padding: 0 15px;background: rgba(255,255,255,.9);}
+    .content-column-background {display: none;}
+    .content-inner {padding: 0 0 35px 0;}
+    .subscribe-form {margin: 58px 0 0;}
+       
+    input.txt-subscribe {width: 59%;font-size: 18px;padding: 0 15px;}
+    .contact-form input, .contact-form textarea {font-size: 18px;padding-right: 15px!important;padding-left: 15px!important;}
+    .btn-subscribe, .btn-contact {font-size: 18px;padding: 0 15px;}
+    .countdown_amount {font-size: 25px;}
+    .countdown_section {font-size: 14px;display: inline-block;text-align: center;width: 110px;height: 110px;margin: 15px;padding: 26px 0 0;line-height: 26px;}
+    div.contact-message div {float: none;}
+    .subscribe-error-field, .subscribe-message {font-size: 18px;}
+    .subscribe-error-field .fa {font-size: 21px;margin-top: 2px;}
+    .contact-form {width: 100%;}
+	
+	 .about-panel, .contact-panel{padding:0;}
+	 .cbox{width:100%;margin:20px auto;height: auto;top:0;position: relative;text-align:center;z-index: 10;
+	-webkit-transform: none;-moz-transform: none;transform: none;-ms-transform: none;-o-transform: none;}
+}
+
+/* Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.cbox{width:100%;margin:20px auto;height: auto;top:0;position: relative;text-align:center;z-index: 10;
+	-webkit-transform: none;-moz-transform: none;transform: none;-ms-transform: none;-o-transform: none;}
+	
+    .content-column {height: auto;background: rgba(255,255,255,.9);}
+    .content-column-background {display: none;}
+    .content-inner {padding: 0 0 81px 0;}
+    footer {text-align: center;margin: 40px 0 0;padding: 0 0 40px 0;}
+    main {padding: 0;}
+    footer small {text-align: center;}
+  
+    
+    .countdown_section {float: left;margin: 15px;}
+}
+
+/* MD styles */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .txt-subscribe {width: 260px;}
+    footer {text-align: center;margin: -120px 0 0;}
+    footer small {text-align: center;}
+    main {padding: 0 0 120px 0;}
+    .contact-form {width: 100%;}
+}
+@media only screen and (max-width: 479px) {
+.home-panel h1{font-size:62px !important;line-height:52px !important;vertical-align:middle;}
+.cbox{width:auto%;margin:20px auto;height: auto;top:0;position: relative;text-align:center;z-index: 10;
+	-webkit-transform: none;-moz-transform: none;transform: none;-ms-transform: none;-o-transform: none;}
+ input.txt-subscribe {width:48%;}
+ .about-panel, .contact-panel{padding:0;}
+}
+/* Mobile styles */
+@media (max-width: 767px) {
+   .content-column {height: auto;padding: 0 15px;background:#e1e3e4 ;} 
+}
+
+/* Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .content-column {height: auto;background:#e1e3e4 ;}
+}

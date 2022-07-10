@@ -1,0 +1,7 @@
+.nav-handle,nav a,.home-panel h1,footer,.btn-subscribe,.slider-icon-container i {color:#D2674B }
+body,.nav-handle.active,nav a:hover, nav a:focus, nav a:active,.social-media a,.btn-contact,.owl-theme .owl-controls .owl-page.active span{background:#D2674B}
+.social-media a:hover,.btn-subscribe:hover,.btn-subscribe2:hover,.btn-contact:hover{background:#B75942}
+.owl-theme .owl-controls .owl-page span{border:1px solid #D2674B}
+/* Website highlight color */
+::-moz-selection {background: #B75942;text-shadow: none;}
+::selection {background: #B75942;text-shadow: none;}
